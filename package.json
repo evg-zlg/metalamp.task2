@@ -1,0 +1,20 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "https://evg-zlg.github.io/metalamp.task2/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evg-zlg/metalamp.task2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evg-zlg/metalamp.task2/issues"
+  },
+  "homepage": "https://github.com/evg-zlg/metalamp.task2#readme"
+}
