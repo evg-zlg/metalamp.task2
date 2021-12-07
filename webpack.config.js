@@ -15,5 +15,15 @@ module.exports = {
         template: path.resolve(__dirname, './src/public/index.html'), // шаблон
         filename: 'index2.html', // название выходного файла
     })
-],
+  ],
+  module: {
+    rules: [
+        // JavaScript
+        {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: ['babel-loader'],
+        },
+    ],
+}
 }
